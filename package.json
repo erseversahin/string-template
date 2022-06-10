@@ -1,0 +1,18 @@
+{
+  "name": "string-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node",
+    "dev": "npx nodemon --watch src src/index.ts",
+    "build": "npx tsc -p tsconfig.json && npx tscpaths -p tsconfig.json -s ./src -o ./build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.8.1",
+    "tsc-hooks": "^1.1.1",
+    "tscpaths": "^0.0.9"
+  }
+}
