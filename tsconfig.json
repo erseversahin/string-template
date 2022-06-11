@@ -17,15 +17,6 @@
     "listEmittedFiles": false,
     "listFiles": false,
     "pretty": true,
-    "lib": [
-      "es2017"
-    ],
-    "types": [
-      "node"
-    ],
-    "typeRoots": [
-      "node_modules/@types"
-    ],
     "baseUrl": "./src",
     "outDir": "./build",
     "allowJs": true,
@@ -40,11 +31,5 @@
     "preserveConstEnums": true,
     "noEmit": false
   },
-  "exclude": [
-    "node_modules/**"
-  ],
-  "hooks": [
-    "copy-files"
-  ],
   "compileOnSave": false
 }
